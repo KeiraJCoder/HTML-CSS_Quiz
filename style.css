@@ -22,7 +22,7 @@ body {
 }
 
 /* Typography */
-h1, h2, h3, p, a, li, code, .error {
+h1, h2, h3, p, a, li, code, .error, label{
   text-align: center;
   display: flex;
   justify-content: center;
@@ -50,7 +50,7 @@ h2, h3 {
   text-shadow: #ffffff;
 }
 
-p, li {
+p, li, label {
   font-family:Arial, Helvetica, sans-serif;
   font-size: 2vw;
   color: #ffffff;
@@ -75,14 +75,17 @@ a {
   margin-right: auto;
 }
 
-.btn:hover, .btn2:hover {
+.btn:hover {
   background-color: rgb(0, 255, 153);
   color: rgb(0, 0, 0);
   font-weight: bold;
 }
 
+.btn2:hover{
+  background-color:rgb(0, 255, 153);
+}
+
 .btn2 {
-  background-color: #11ff00;
   border-radius: 25%;
   font-size: 2vw;
   margin-top: 2vw;
